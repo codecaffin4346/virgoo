@@ -24,9 +24,11 @@ const Navbar = () => {
     <nav className="w-full py-4 bg-white/80 backdrop-blur-sm fixed top-0 z-50">
       <div className="container px-4 mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center">
-          <span className="font-playfair font-bold text-2xl">
-            <span className="text-primary">V</span>irgo
-          </span>
+          <img 
+            src="/lovable-uploads/91be3e8f-760c-40f6-884f-173965d303a3.png" 
+            alt="Virgo Logo" 
+            className="h-10 w-auto"
+          />
         </Link>
 
         {/* Desktop Navigation */}
