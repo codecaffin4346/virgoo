@@ -15,6 +15,7 @@ import LearningPaths from "./pages/LearningPaths";
 import FinanceHub from "./pages/FinanceHub";
 import MarketingToolkit from "./pages/MarketingToolkit";
 import BusinessInsights from "./pages/BusinessInsights";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import AIChatAssistant from "./components/AIChatAssistant";
 
@@ -38,6 +39,7 @@ const App = () => (
           <Route path="/finance-hub" element={<FinanceHub />} />
           <Route path="/marketing-toolkit" element={<MarketingToolkit />} />
           <Route path="/business-insights" element={<BusinessInsights />} />
+          <Route path="/about" element={<About />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
