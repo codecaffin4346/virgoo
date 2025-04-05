@@ -13,6 +13,7 @@ import JobMatching from "./pages/JobMatching";
 import InterviewTraining from "./pages/InterviewTraining";
 import LearningPaths from "./pages/LearningPaths";
 import NotFound from "./pages/NotFound";
+import AIChatAssistant from "./components/AIChatAssistant";
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <AIChatAssistant />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

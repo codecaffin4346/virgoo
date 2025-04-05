@@ -1,1 +1,12 @@
+
 project_id = "kpedemiyorfgqusdngrl"
+
+[api]
+enabled = true
+
+[functions]
+[functions.ai-assistant]
+verify_jwt = false
+
+[functions.send-welcome-email]
+verify_jwt = false
