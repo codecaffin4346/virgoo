@@ -12,6 +12,9 @@ import ResumeAnalysis from "./pages/ResumeAnalysis";
 import JobMatching from "./pages/JobMatching";
 import InterviewTraining from "./pages/InterviewTraining";
 import LearningPaths from "./pages/LearningPaths";
+import FinanceHub from "./pages/FinanceHub";
+import MarketingToolkit from "./pages/MarketingToolkit";
+import BusinessInsights from "./pages/BusinessInsights";
 import NotFound from "./pages/NotFound";
 import AIChatAssistant from "./components/AIChatAssistant";
 
@@ -32,6 +35,9 @@ const App = () => (
           <Route path="/job-matching" element={<JobMatching />} />
           <Route path="/interview-training" element={<InterviewTraining />} />
           <Route path="/learning-paths" element={<LearningPaths />} />
+          <Route path="/finance-hub" element={<FinanceHub />} />
+          <Route path="/marketing-toolkit" element={<MarketingToolkit />} />
+          <Route path="/business-insights" element={<BusinessInsights />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
