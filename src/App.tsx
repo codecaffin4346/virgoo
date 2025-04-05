@@ -9,6 +9,9 @@ import Community from "./pages/Community";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ResumeAnalysis from "./pages/ResumeAnalysis";
+import JobMatching from "./pages/JobMatching";
+import InterviewTraining from "./pages/InterviewTraining";
+import LearningPaths from "./pages/LearningPaths";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +28,9 @@ const App = () => (
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/resume-analysis" element={<ResumeAnalysis />} />
+          <Route path="/job-matching" element={<JobMatching />} />
+          <Route path="/interview-training" element={<InterviewTraining />} />
+          <Route path="/learning-paths" element={<LearningPaths />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
